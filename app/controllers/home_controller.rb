@@ -6,6 +6,7 @@ class HomeController < ApplicationController
   end
 
   def forms
+    render :content_type => 'text/xml'
   end
 
 end
