@@ -6,6 +6,9 @@ class HomeController < ApplicationController
   end
 
   def forms
+
+
+    # HTTParty.post url, :body => xml, :headers => {'Content-type' => 'text/xml'}
     render :content_type => 'text/xml'
   end
 
