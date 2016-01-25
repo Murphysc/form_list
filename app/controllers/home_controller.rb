@@ -10,7 +10,7 @@ class HomeController < ApplicationController
     puts '!--------@@--------!'
     puts request.inspect.to_yaml
 
-    # response.headers['X-OpenRosa-Version'] = '1'
+    response.headers['X-OpenRosa-Version'] = '1'
     response.headers['Content-Type'] = 'text/xml; charset=utf-8'
 
     puts '!--------@@--------!'
