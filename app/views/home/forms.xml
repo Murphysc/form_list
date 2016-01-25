@@ -1,5 +1,7 @@
 <xforms xmlns="http://openrosa.org/xforms/xformsList">
   <xform>
-    <formID>CascadingSelect</formID>
+    <formId>CascadingSelect</formId>
+    <name>CascadingSelect</name>
+    <downloadUrl>http://www.google.com</downloadUrl>
   </xform>
 </xforms>
